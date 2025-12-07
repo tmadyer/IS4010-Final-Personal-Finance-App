@@ -1,0 +1,9 @@
+[project]
+name = "budgetcli"
+version = "0.1.0"
+description = "A simple command-line budgeting tool."
+authors = [{ name = "Thomas Dyer", email = "tmadyer@gmail.com" }]
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]
